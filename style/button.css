@@ -1,0 +1,47 @@
+.button {
+  transition-duration: 1s;
+}
+
+.button:hover {
+  background-color: #00ff08; 
+  color: white;
+}
+
+.button {
+  font-weight: 24px;      
+  background-color: #048108; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.buttona {
+  transition-duration: 1s;
+}
+
+.buttona:hover {
+  background-color: #008f72; 
+  color: white;
+}
+
+.buttona {
+  font-weight: 24px;      
+  background-color: #035e8c; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 1s;
+  cursor: pointer;
+}

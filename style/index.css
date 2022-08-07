@@ -1,9 +1,14 @@
 body {
-        background-color: #34495e;
-        color: #ffffff;
-        text-align: center;
+ background-color: #34495e;
+ color: #ffffff;
+ text-align: center;
 }
 
 h1 {
-       font-family: 'Mouse Memoirs', sans-serif;
+ font-family: 'Mouse Memoirs', sans-serif;
+}
+
+diva {
+text-align: center;
+background-color: lightblue;        
 }
