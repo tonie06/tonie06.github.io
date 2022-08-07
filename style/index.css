@@ -1,0 +1,12 @@
+body {
+        background-color: maroon;
+        color: black;
+        font-size: 24px;
+        text-align: center;
+}
+
+h1 {
+       font-family: 'Mouse Memoirs', sans-serif;
+       font-weight:normal;
+       font-style:normal;
+}
