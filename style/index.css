@@ -65,10 +65,3 @@ font-family: 'Mouse Memoirs', sans-serif;
         position: sticky;    
   top: 0px;  
 }
-
-.detail {
-         padding: 16px 32px;
-        text-align: center;
-	background: linear-gradient(-45deg, #af2c04, #c25e00, #23a6d5, #23d5ab);
-	animation: gradient 3s ease infinite;
-}
