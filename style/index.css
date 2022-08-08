@@ -1,6 +1,6 @@
 body {
         text-align: center;
-	background: linear-gradient(-45deg, #af2c04, #c25e00, #2fd723, #23d5ab);
+	background: linear-gradient(-45deg, #5433FF, #20BDFF, #A5FECB);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 	height: 100vh;
@@ -46,7 +46,7 @@ font-family: 'Mouse Memoirs', sans-serif;
   text-decoration: none;
   font-size: 17px;
   border-radius: 5px;
-  position: sticky;    
+  position: center;    
   top: 0px;      
 }
 
@@ -67,3 +67,34 @@ font-family: 'Mouse Memoirs', sans-serif;
 }
 
 
+.fullscreena {
+ position: static;
+ left: 0;
+ top: 0;
+ height: 50%;
+ width: 100%;     
+}
+
+.fullscreenb {
+ position: static;
+ left: 0;
+ top: 0;
+ height: 75%;
+ width: 100%;     
+}
+
+.fullscreenc {
+ position: static;
+ left: 0;
+ top: 0;
+ height: 75%;
+ width: 100%;
+}
+
+.fullscreend {
+ position: static;
+ left: 0;
+ top: 0;
+ height: 75%;
+ width: 100%;
+}

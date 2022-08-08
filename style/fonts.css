@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'mouse_memoirsregular';
-    src: url('https://MilkGatas.github.io/style/fonts/mousememoirs-regular-webfont.woff2') format('woff2'),
-         url('https://MilkGatas.github.io/style/fonts/mousememoirs-regular-webfont.woff') format('woff');
+    src: url('style/fonts/mousememoirs-regular-webfont.woff2') format('woff2'),
+         url('style/fonts/mousememoirs-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
