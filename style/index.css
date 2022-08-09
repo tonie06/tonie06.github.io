@@ -1,8 +1,8 @@
 body {
         text-align: center;
-	background: linear-gradient(-45deg, #5433FF, #20BDFF, #A5FECB);
+	background: linear-gradient(-45deg, #eacda3, #d6ae7b, #bc9562);
 	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
+	animation: gradient 3s ease infinite;
 	height: 100vh;
 }
 
@@ -35,7 +35,7 @@ h1 {
 }
 
 p {
-font-family: 'Mouse Memoirs', sans-serif;        
+font-family: 'Indie Flower', cursive;     
 }
 
 .pill-nav a {
@@ -52,7 +52,7 @@ font-family: 'Mouse Memoirs', sans-serif;
 
 
 .pill-nav a:hover {
-  background-color: #ddd;
+  background-color: #3e1e1e;
   color: black;
         position: sticky;    
   top: 0px;  
@@ -67,7 +67,7 @@ font-family: 'Mouse Memoirs', sans-serif;
 }
 
 
-.fullscreena {
+.fullscreen {
  position: static;
  left: 0;
  top: 0;
@@ -75,27 +75,4 @@ font-family: 'Mouse Memoirs', sans-serif;
  width: 100%;     
 }
 
-.fullscreenb {
- position: static;
- left: 0;
- top: 0;
- height: 75%;
- width: 100%;     
-}
-
-.fullscreenc {
- position: static;
- left: 0;
- top: 0;
- height: 75%;
- width: 100%;
-}
-
-.fullscreend {
- position: static;
- left: 0;
- top: 0;
- height: 75%;
- width: 100%;
-}
 
