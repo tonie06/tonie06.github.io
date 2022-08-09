@@ -13,7 +13,7 @@
   height: 48px;
   justify-content: center;
   line-height: 24px;
-  max-width: 100%;
+  max-width: 25%;
   padding: 0 25px;
   position: relative;
   text-align: center;
@@ -30,7 +30,7 @@
   display: block;
   height: 48px;
   left: 0;
-  width: 100%;
+  width: 25%;
   position: absolute;
   top: -2px;
   transform: translate(8px, 8px);
@@ -51,8 +51,8 @@
   outline: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 25) {
   .button {
-    padding: 0 40px;
+    padding: 0 25;
   }
 }
