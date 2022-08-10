@@ -35,7 +35,11 @@ h1 {
 }
 
 p {
-font-family: 'Indie Flower', cursive;     
+font-family: 'Silkscreen', cursive;     
+}
+
+.p {
+font-family: 'Silkscreen', cursive;     
 }
 
 li {
