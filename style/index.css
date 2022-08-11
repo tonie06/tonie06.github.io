@@ -1,22 +1,10 @@
 body {
         text-align: center;
 	background: linear-gradient(-45deg, #eacda3, #d7a460, #bc9562);
-	background-size: 400% 400%;
-	animation: gradient 3s ease infinite;
-	height: 100vh;
+        background-size: 500% 500%;
+
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
 
 h1 {
  font-family: 'Mouse Memoirs', sans-serif;
@@ -79,8 +67,18 @@ li {
  position: static;
  left: 0;
  top: 0;
- height: 60%;
+ height: 25%;
  width: 100%;     
 }
 
+#left_side {
+float: left;
+        text-align: center;
+ }
+
+
+#right_side {
+float: right;
+        text-align: center;
+}
 
