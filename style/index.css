@@ -1,7 +1,7 @@
 body {
         text-align: center;
 	background: linear-gradient(-45deg, #eacda3, #d7a460, #bc9562);
-        background-size: 200% 200%;
+        background-size: 300% 300%;
 
 }
 
@@ -81,4 +81,3 @@ float: left;
 float: right;
         text-align: center;
 }
-
