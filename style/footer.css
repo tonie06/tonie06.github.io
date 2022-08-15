@@ -3,12 +3,13 @@ footer{
     bottom: 1;
     left: 0;
     right: 0;
-    background: #d09c58;
+    background: #0498b9;
     height: auto;
     width: 100vw;
     padding-top: 40px;
     color: #fff;
 }
+
 
 .footer-content{
     display: flex;
@@ -30,7 +31,7 @@ footer{
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
-    color: #cacdd2;
+    color: aqua;
 }
 
         .socials{
@@ -58,11 +59,11 @@ footer{
 }
 
 .socials a:hover i{
-    color: aqua;
+    color: #00ff59;
 }
 
 .footer-bottom{
-    background: #ad8652;
+    background: #00758f;
     width: 100vw;
     padding: 10px;
     padding-bottom: 5px;
