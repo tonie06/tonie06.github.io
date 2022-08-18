@@ -1,8 +1,9 @@
 body {
+        color: white;
         text-align: center;
-	background: linear-gradient(-15deg, #ffba66, #ED8F03, #764904);
+        background: linear-gradient(-15deg, #0F2027, #2C5364, #203A43);
         background-size: 400% 400%;
-         animation: bg 5s ease infinite;
+         animation: bg 3s ease infinite;
 }
 
 @keyframes bg { 
@@ -56,7 +57,8 @@ li {
   background-color: #3e1e1e;
   color: black;
         position: sticky;    
-  top: 0px;  
+  top: 0px;
+border-style: dotted; 
 }
 
 
