@@ -1,13 +1,33 @@
 body {
         color: black;
         text-align: center;
-        background: linear-gradient(-15deg, #0F2027, #2C5364, #203A43);
+        background: linear-gradient(-15deg, #2c2f30, #424648, #62686a);
         background-size: 400% 400%;
-         animation: bg 3s ease infinite;
+         animation: bg 10s ease infinite;
 }
 
 @keyframes bg { 
   0%{background-position:0% 50%}
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
+}
+
+#left { float:left; width:50%; font-family: 'Silkscreen', cursive;  }
+#right { float:right; width:50%; font-family: 'Silkscreen', cursive; }
+
+.frontpage {
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

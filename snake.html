@@ -11,7 +11,7 @@ h1 { font-size:35px; text-align: center; margin: 0; padding-bottom: 25px; text-d
 <script type="text/javascript">
 function play_game()
 {
-var level = 160; // Game level, by decreasing will speed up
+var level = 150; // Game level, by decreasing will speed up
 var rect_w = 45; // Width
 var rect_h = 30; // Height
 var inc_score = 50; // Score
@@ -53,7 +53,7 @@ map[x][y] = 1;
 ctx.fillStyle = snake_color;
 ctx.strokeRect(x * 10+1, y * 10+1, 8, 8);
 }
-// Default somewhere placement
+                                                                // Default somewhere placement
 random_snake();
 function set_game_speed()
 {

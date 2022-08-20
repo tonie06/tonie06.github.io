@@ -91,3 +91,9 @@ float: right;
 ::-webkit-scrollbar-thumb:hover {
   background: #eacda3; 
 }
+
+a{
+    text-decoration: none;
+    color: aqua;
+    padding: 5px;
+}
