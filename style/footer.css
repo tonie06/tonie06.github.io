@@ -3,7 +3,7 @@ footer{
     bottom: 1;
     left: 0;
     right: 0;
-    background: gray;
+    background: #07d452;
     height: auto;
     width: 100vw;
     padding-top: 40px;
@@ -67,7 +67,7 @@ footer{
     padding: 10px;
     padding-bottom: 5px;
     text-align: center;
-        background: linear-gradient(-15deg,  #2c2f30, #424648, #62686a);
+        background: linear-gradient(-15deg, #1D976C, #93F9B9, #22d162);
         background-size: 400% 400%;
          animation: bgfb 10s ease infinite;
 }
