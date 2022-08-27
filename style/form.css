@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 50vh;
     }
     form {
     padding: 25px;
@@ -13,7 +13,7 @@
     }
     .fas {
     margin: 25px 10px 0;
-    font-size: 72px;
+    font-size: 22px;
     color: #fff;
     }
     .fa-envelope {
