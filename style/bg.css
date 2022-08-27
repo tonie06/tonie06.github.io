@@ -12,8 +12,8 @@ body {
   100%{background-position:0% 50%}
 }
 
-#left { float:left; width:50%; font-family: 'Silkscreen', cursive;  }
-#right { float:right; width:50%; font-family: 'Silkscreen', cursive; }
+.left { float:left; width:50%; font-family: 'Silkscreen', cursive;  }
+.right { float:right; width:50%; font-family: 'Silkscreen', cursive; }
 
 .frontpage {
   height: 100%;
