@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    line-height: 1.6;
-    padding: 0 1.5em;
-}
-
 .container {
     max-width: 1170px;
     margin-left: auto;
@@ -85,7 +80,6 @@ ul {
     outline: 0;
 }
 
-/* CONTACT INFO */
 .contact-info {
     background: #000;
 }
@@ -95,7 +89,7 @@ ul {
     margin: 0 0 1rem 0;
 }
 
-/* LARGE SIZE */
+
 @media(min-width: 700px) {
     body {
         padding: 0 4em;
