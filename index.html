@@ -36,45 +36,6 @@
             'floating-chat.donateButton.text-color': '#fff'
           });
         </script>        
-        <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
-        <script>
-          window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)}
-          formbutton("create", {
-            action: "https://formspree.io/f/xpznwyyd",
-            title: "Get in touch with me",
-            fields: [
-              { 
-                type: "text", 
-                label: "Full Name:", 
-                name: "Name",
-                required: true,
-                placeholder: "Your Name"
-              },
-              { 
-                type: "email", 
-                label: "Email:", 
-                name: "email",
-                required: true,
-                placeholder: "your@email.com"
-              },
-              {
-                type: "textarea",
-                label: "Message:",
-                name: "message",
-                placeholder: "What's on your mind?",
-              },
-              { type: "submit" }      
-            ],
-            styles: {
-              title: {
-                backgroundColor: "cyan"
-              },
-              button: {
-                backgroundColor: "cyan"
-              }
-            }
-          });
-        </script>
         
                 
          <div class="pill-nav">
@@ -110,6 +71,23 @@
 
         </div> 
 
+        
+        <div class="main-block">
+          <form  
+          action="https://formspree.io/f/xpznwyyd" 
+          method="POST">
+            <h1>Contact Me!</h1>
+            <div class="info">
+              <p>Full Name</p><br>
+              <input class="fname" type="text" name="name" placeholder="Full name">
+              <p>Your Email</p><br>
+              <input type="text" name="Email" placeholder="Email">
+               <p>Your Message</p><br>
+              <input type="text" name="Message" placeholder="Message">
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
 
 
      <footer> 
