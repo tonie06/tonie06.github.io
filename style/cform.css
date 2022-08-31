@@ -1,8 +1,8 @@
 .main-block {
     display: flex;
     flex-direction: column;
-    justify-content: right;
-    align-items: right;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
     }
     form {
