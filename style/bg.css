@@ -3,7 +3,7 @@ body {
         text-align: center;
         background: linear-gradient(-15deg, #1D976C, #93F9B9, #22d162);
         background-size: 400% 400%;
-         animation: bg 10s ease infinite;
+         animation: bg 3s ease infinite;
 }
 
 @keyframes bg { 
