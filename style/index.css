@@ -22,6 +22,10 @@ font-family: 'Silkscreen', cursive;
 font-family: 'Silkscreen', cursive;     
 }
 
+label {
+  font-family: 'Silkscreen', cursive;  
+}
+
 .pill-nav a {
   display: inline-block;
   color: black;

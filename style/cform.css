@@ -12,13 +12,15 @@
     background: #1D976C; 
     }
     input, textarea {
+    border-width: 0;    
     width: calc(100% - 18px);
     padding: 8px;
     margin-bottom: 20px;
     outline: none;
+    background-color: #22d162;
     }
     input::placeholder {
-    color: #666;
+    color: #03e958;
     }
     button {
     width: 100%;
