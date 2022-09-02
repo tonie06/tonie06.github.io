@@ -67,7 +67,7 @@ footer{
     padding: 10px;
     padding-bottom: 5px;
     text-align: center;
-        background: linear-gradient(-15deg, #1D976C, #93F9B9, #22d162);
+        background: linear-gradient(-15deg, #334d50, #cbcaa5, #242422);
         background-size: 400% 400%;
          animation: bgfb 3s ease infinite;
 }
@@ -85,7 +85,7 @@ footer{
    text-transform: capitalize;
 }
 .footer-bottom p a{
-  color:#00ffcc;
+  color:#1f2124;
   font-size: 12px;
   text-decoration: none;
 }
