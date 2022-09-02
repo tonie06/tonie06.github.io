@@ -8,8 +8,8 @@
     form {
     padding: 25px;
     margin: 25px;
-    box-shadow: 0 2px 5px #1D9763; 
-    background: #1D976C; 
+    box-shadow: 0 2px 5px #334d50; 
+    background: #334d50; 
     }
     input, textarea {
     border-width: 0;    
@@ -17,7 +17,7 @@
     padding: 8px;
     margin-bottom: 20px;
     outline: none;
-    background-color: #22d162;
+    background-color: #cbcaa5;
     }
     input::placeholder {
     color: #ffffff;
