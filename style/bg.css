@@ -1,4 +1,4 @@
-body {
+body, html {
         color: black;
         text-align: center;
         background: linear-gradient(-15deg, #334d50, #cbcaa5, #242422);
