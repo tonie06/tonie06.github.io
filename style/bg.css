@@ -11,25 +11,3 @@ body, html {
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
 }
-
-.left { float:left; width:50%; font-family: 'Silkscreen', cursive;  }
-.right { float:right; width:50%; font-family: 'Silkscreen', cursive; }
-
-.frontpage {
-  height: 100%;
-}
-
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Mouse+Memoirs&family=Silkscreen&display=swap');

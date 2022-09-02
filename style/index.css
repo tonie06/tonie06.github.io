@@ -55,19 +55,36 @@ border-style: dotted;
  width: 100%;     
 }
 
-#left_side {
-float: left;
-        text-align: center;
- }
 
 
-#right_side {
-float: right;
-        text-align: center;
-}
-
-a{
+a {
     text-decoration: none;
     color: aqua;
     padding: 5px;
+}
+
+.left { 
+  float:left; 
+  width:50%; 
+  font-family: 'Silkscreen', cursive; 
+ }
+
+.right { 
+  float:right; 
+  width:50%; 
+  font-family: 'Silkscreen', cursive; 
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
