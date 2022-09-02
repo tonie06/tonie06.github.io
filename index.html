@@ -14,11 +14,23 @@
          <meta charset="utf-8">        
          <link rel="stylesheet" href="master.css">
         <script src="script/script.js"></script>
-         <title>Tonie the Developer</title>        
+         <title>Tonie the Developer</title>   
+         <style>
+          @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Mouse+Memoirs&family=Silkscreen&display=swap');
+          </style>          
          <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>          
         </head>
         <body>
                 <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+                <script>
+                  kofiWidgetOverlay.draw('tonie', {
+                    'type': 'floating-chat',
+                    'floating-chat.donateButton.text': 'Support',
+                    'floating-chat.donateButton.background-color': '#eacda3',
+                    'floating-chat.donateButton.text-color': '#fff'
+                  });
+                  </script>
+
          <div class="pill-nav">
         <a class="active" href='/'><img height='36px' style='height:36px;' src='assets/home.png'alt='Homepage' title='Home'></a> 
         <a href='pricing'><img height='36px' style='height:36px' src='assets/price.svg' alt='Pricing' title='Pricing'></a>
