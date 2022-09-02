@@ -1,6 +1,6 @@
-@import url(cform.css);
-@import url(fonts.css);
-@import url(index.css);
-@import url(card.css);
-@import url(button.css);
-@import url(bg.css);
+@import url(style/cform.css);
+@import url(style/fonts.css);
+@import url(style/index.css);
+@import url(style/card.css);
+@import url(style/button.css);
+@import url(style/bg.css);
