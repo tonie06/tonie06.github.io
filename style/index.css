@@ -18,35 +18,6 @@ label {
   font-family: 'Silkscreen', cursive;  
 }
 
-.pill-nav a {
-  display: inline-block;
-  color: black;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-  font-size: 17px;
-  border-radius: 5px;
-  position: center;    
-  top: 0px;     
-}
-
-.pill-nav a:hover {
-  background-color: #3e1e1e;
-  color: black;
-        position: sticky;    
-  top: 0px;
-border-style: dotted; 
-}
-
-
-.pill-nav a.active {
-  background-color: dodgerblue;
-  color: white;
-        position: sticky;    
-  top: 0px;  
-}
-
-
 .fullscreen {
  position: static;
  left: 0;
