@@ -39,7 +39,7 @@ body, html {
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 20px;
-    animation: drop 3.0s ease; /* Make things beautiful */
+    animation: drop 3.0s ease; 
     cursor: pointer;
 }
 
