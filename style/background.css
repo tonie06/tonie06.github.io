@@ -11,11 +11,11 @@ body, html {
 }
 .parallax2 {
     background-image: url(/assets/skills.jpg);
-    min-height: 60%;
+    min-height: 50%;
 }
 .parallax3 {
     background-image: url(/assets/contact.jpg);
-    min-height: 40%;
+    min-height: 50%;
 }
 .parallax4 {
     background-image: url(/assets/end.jpg);
