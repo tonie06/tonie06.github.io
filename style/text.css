@@ -1,0 +1,12 @@
+/* font-family: 'Concert One', cursive; For Texts
+font-family: 'Permanent Marker', cursive; for Titles*/
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Permanent+Marker&display=swap');
+
+p {
+    font-family: 'Concert One', cursive;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}

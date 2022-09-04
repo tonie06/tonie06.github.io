@@ -1,5 +1,2 @@
-@import url(style/fonts.css);
-@import url(style/index.css);
-@import url(style/card.css);
-@import url(style/bg.css);
-@import url(style/menu.css)
+@import url(style/background.css);
+@import url(style/text.css);
