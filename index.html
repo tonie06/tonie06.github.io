@@ -33,13 +33,11 @@
                 I am really into Programming since i was a kid my first history of Programming is when i was 9 Years old i was Making Roblox Games it was just some simple games that lack features, design, functionalities. But hey i was nine back then and i was just completely starting in programming, but now i have improved and i got more better at this. <br> I started programming really just for fun and not for anything else but now i am Accepting Jobs for it i am using all of my money that i will gain for something that will help me with this journey like buying new Laptops, Pc's, Phone that will be very useful for my future and upcoming jobs Or/And Projects.
                         </p>
         </div>
-
     </section>
 
     <div class="parallax2">
-
-
     </div>
+
     <section>
         <h1>My Skills</h1>
         <p> 
@@ -50,38 +48,122 @@
         </p>
     </section>
     <div class="parallax3">
-
     </div>
+
     <div>
         <section>
             <h1>Contact me!</h1>
             <p> 
                 <img src="assets/gmail.svg" width="25" height="25"> Email: <a mailto:cadizal06@gmail.com>cadizal06@gmail.com</a>
             </p>
-            <script src ="https://form.jotform.com/static/feedback2.js" type="text/javascript"></script><script type="text/javascript">
-                var JFL_222465099095060 = new JotformFeedback({
-                  formId: '222465099095060',
-                  base: 'https://form.jotform.com/',
-                  windowTitle: 'Form',
-                  background: '#FFA500',
-                  fontColor: '#FFFFFF',
-                  type: '2',
-                  height: 500,
-                  width: 700,
-                  openOnLoad: false
-                });
-            </script>
-              <a class="btn lightbox-222465099095060" style="margin-top: 16px">
-                Contact Form
-              </a>
+            
+    <iframe
+    id="JotFormIFrame-222465099095060"
+    title="Contact Form"
+    onload="window.parent.scrollTo(0,0)"
+    allowtransparency="true"
+    allowfullscreen="true"
+    allow="geolocation; microphone; camera"
+    src="https://form.jotform.com/222465099095060"
+    frameborder="0"
+    style="
+    min-width: 100%;
+    height:539px;
+    border:none;"
+    scrolling="no"
+  >
+  </iframe>
+  <script type="text/javascript">
+    var ifr = document.getElementById("JotFormIFrame-222465099095060");
+    if (ifr) {
+      var src = ifr.src;
+      var iframeParams = [];
+      if (window.location.href && window.location.href.indexOf("?") > -1) {
+        iframeParams = iframeParams.concat(window.location.href.substr(window.location.href.indexOf("?") + 1).split('&'));
+      }
+      if (src && src.indexOf("?") > -1) {
+        iframeParams = iframeParams.concat(src.substr(src.indexOf("?") + 1).split("&"));
+        src = src.substr(0, src.indexOf("?"))
+      }
+      iframeParams.push("isIframeEmbed=1");
+      ifr.src = src + "?" + iframeParams.join('&');
+    }
+    window.handleIFrameMessage = function(e) {
+      if (typeof e.data === 'object') { return; }
+      var args = e.data.split(":");
+      if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+      if (!iframe) { return; }
+      switch (args[0]) {
+        case "scrollIntoView":
+          iframe.scrollIntoView();
+          break;
+        case "setHeight":
+          iframe.style.height = args[1] + "px";
+          break;
+        case "collapseErrorPage":
+          if (iframe.clientHeight > window.innerHeight) {
+            iframe.style.height = window.innerHeight + "px";
+          }
+          break;
+        case "reloadPage":
+          window.location.reload();
+          break;
+        case "loadScript":
+          if( !window.isPermitted(e.origin, ['jotform.com', 'jotform.pro']) ) { break; }
+          var src = args[1];
+          if (args.length > 3) {
+              src = args[1] + ':' + args[2];
+          }
+          var script = document.createElement('script');
+          script.src = src;
+          script.type = 'text/javascript';
+          document.body.appendChild(script);
+          break;
+        case "exitFullscreen":
+          if      (window.document.exitFullscreen)        window.document.exitFullscreen();
+          else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
+          else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
+          else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
+          else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
+          break;
+      }
+      var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+      if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+        var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+        iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+      }
+    };
+    window.isPermitted = function(originUrl, whitelisted_domains) {
+      var url = document.createElement('a');
+      url.href = originUrl;
+      var hostname = url.hostname;
+      var result = false;
+      if( typeof hostname !== 'undefined' ) {
+        whitelisted_domains.forEach(function(element) {
+            if( hostname.slice((-1 * element.length - 1)) === '.'.concat(element) ||  hostname === element ) {
+                result = true;
+            }
+        });
+        return result;
+      }
+    };
+    if (window.addEventListener) {
+      window.addEventListener("message", handleIFrameMessage, false);
+    } else if (window.attachEvent) {
+      window.attachEvent("onmessage", handleIFrameMessage);
+    }
+    </script>
         </section>
-
     </div>
+
+
     <div class="parallax4">
         <div class="head">
             The End...
         </div>
     </div>
+
+
     <footer>
          Copyright © 2022 - All rights Reserved - Designed by Tonie
     </footer>
