@@ -6,11 +6,11 @@ body, html {
     text-align: center;
 }
 .parallax1 {
-    background-image: url(assets/about.jpg);
+    background-image: url(../assets/about.jpg);
     min-height: 100%;
 }
 .parallax2 {
-    background-image: url(assets/skill.jpg);
+    background-image: url(../assets/skill.jpg);
     min-height: 60%;
 }
 .parallax3 {
