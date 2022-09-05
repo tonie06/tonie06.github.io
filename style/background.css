@@ -28,7 +28,7 @@ body, html {
 
 .parallax1, .parallax2, .parallax3, .parallax4, .parallax5 {
     position: relative;
-    opacity: 0.70;
+    opacity: 1.0;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
