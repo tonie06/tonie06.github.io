@@ -99,8 +99,11 @@ body, html {
 section {
     overflow: auto;
     padding: 50px 80px; 
-    color: rgb(255, 255, 255);
-    background-color: #323232;
+}
+
+div {
+  color: rgb(255, 255, 255);
+  background-color: #323232;
 }
 
 footer{
