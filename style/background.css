@@ -101,6 +101,7 @@ body, html {
 section {
     overflow: auto;
     padding: 50px 80px; 
+    animation: fade-right 1s ease-in;
 }
 
 footer{
