@@ -43,8 +43,7 @@ body, html {
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 20px;
-    animation: drop 3.0s ease; 
-    cursor: pointer;
+    animation: drop 4.0s ease; 
 }
 
 .reveal{
