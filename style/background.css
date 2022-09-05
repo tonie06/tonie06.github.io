@@ -18,11 +18,15 @@ body, html {
     min-height: 50%;
 }
 .parallax4 {
+    background-image: url(/assets/links.jpg);
+    min-height: 100%;
+}
+.parallax5 {
     background-image: url(/assets/end.jpg);
     min-height: 100%;
 }
 
-.parallax1, .parallax2, .parallax3, .parallax4 {
+.parallax1, .parallax2, .parallax3, .parallax4, .parallax5 {
     position: relative;
     opacity: 0.70;
     background-position: center;
