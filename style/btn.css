@@ -16,10 +16,10 @@
  .btn {
 	 position: relative;
 	 width: 180px;
-	 height: 60px;
+	 height: 80px;
 	 margin: 20px;
-	 line-height: 60px;
-	 letter-spacing: 2px;
+	 line-height: 80px;
+	 letter-spacing: 3px;
 	 text-decoration: none;
 	 text-transform: uppercase;
 	 text-align: center;
