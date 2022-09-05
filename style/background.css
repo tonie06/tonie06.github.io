@@ -6,23 +6,23 @@ body, html {
     text-align: center;
 }
 .parallax1 {
-    background-image: url(/assets/about.jpg);
+    background-image: url(/assets/Tonie.gif);
     min-height: 100%;
 }
 .parallax2 {
-    background-image: url(/assets/skills.jpg);
+    background-image: url(/assets/Skills.gif);
     min-height: 50%;
 }
 .parallax3 {
-    background-image: url(/assets/contact.jpg);
+    background-image: url(/assets/contact.gif);
     min-height: 50%;
 }
 .parallax4 {
-    background-image: url(/assets/links.jpg);
+    background-image: url(/assets/links.gif);
     min-height: 50%;
 }
 .parallax5 {
-    background-image: url(/assets/end.jpg);
+    background-image: url(/assets/end.gif);
     min-height: 100%;
 }
 
