@@ -37,7 +37,7 @@ body, html {
 
 .head {
     position: absolute;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 500%;
     top:50%;
     width: 100%;
