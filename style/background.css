@@ -3,8 +3,6 @@ body, html {
     margin:0;
     line-height: 180%;
     text-align: center;
-    color: rgb(255, 255, 255);
-    background-color: #323232;
 }
 .parallax1 {
     background-image: url(/assets/Tonie.gif);
@@ -101,6 +99,11 @@ body, html {
 section {
     overflow: auto;
     padding: 50px 80px; 
+}
+
+div {
+  color: rgb(255, 255, 255);
+  background-color: #0b0b0b;
 }
 
 footer{
