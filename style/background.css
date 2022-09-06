@@ -3,25 +3,26 @@ body, html {
     margin:0;
     line-height: 180%;
     text-align: center;
+    background-color: #000000;
 }
 .parallax1 {
-    background-image: url(/assets/sdown.gif);
+    background-image: url(/assets/space.jpg);
     min-height: 100%;
 }
 .parallax2 {
-    background-image: url(/assets/skills.gif);
+    background-image: url(/assets/galaxy.jpg);
     min-height: 50%;
 }
 .parallax3 {
-    background-image: url(/assets/contact.gif);
+    background-image: url(/assets/sdust.jpg);
     min-height: 50%;
 }
 .parallax4 {
-    background-image: url(/assets/links.gif);
+    background-image: url(/assets/sdust2.jpg);
     min-height: 50%;
 }
 .parallax5 {
-    background-image: url(/assets/end.gif);
+    background-image: url(/assets/viewsky.jpg);
     min-height: 100%;
 }
 
@@ -36,13 +37,13 @@ body, html {
 
 .head {
     position: absolute;
-    color: rgb(0, 0, 0);
+    color: rgb(196, 171, 171);
     font-size: 500%;
     top:50%;
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 20px;
-    animation: drop 4.0s ease; 
+    animation: drop 4s infinite; 
 }
 
 .reveal{
@@ -99,10 +100,11 @@ body, html {
 section {
     overflow: auto;
     padding: 50px 80px; 
+    background-color: #000000;
 }
 
 div {
-  color: rgb(0, 0, 0);
+ color: white;
 }
 
 footer{
@@ -124,12 +126,13 @@ footer{
 
 
 @keyframes drop {
-    0% {
-      opacity: 0;
-      transform: translateY(-80px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0px);
-    }
+  0%   {top: 150px;}
+  50%  {top: 140px;}
+  100% {top: 150px;}
   }
+
+#a { color: rgb(196, 171, 171);}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
