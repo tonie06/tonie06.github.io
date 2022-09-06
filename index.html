@@ -49,12 +49,19 @@
 
         <section class="container reveal fade-bottom"> 
           <div>
-     <form name="Contact Form" data-netlify="true" method="POST">
-<p>Name</p> <input type="text" name="name">
-<p>Email</p> <input type="text" name="email">
-<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-<input type="submit" value="Send"><input type="reset" value="Clear">
-</form>
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xpznwyyd" method="post">
+              <fieldset id="fs-frm-inputs">
+                <label for="full-name">Full Name</label>
+                <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                <label for="email-address">Email Address</label>
+                <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                <label for="message">Message</label>
+                <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+              </fieldset>
+              <input type="submit" value="Submit">
+            </form>
+            
           </div>
         </section>
                 
