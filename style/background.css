@@ -38,12 +38,12 @@ body, html {
 .head {
     position: absolute;
     color: rgb(196, 171, 171);
-    font-size: 500%;
+    font-size: 250%;
     top:50%;
     width: 100%;
     text-transform: uppercase;
-    letter-spacing: 20px;
-    animation: drop 4s infinite; 
+    letter-spacing: 10px;
+    animation: drop 2s infinite; 
 }
 
 .reveal{
