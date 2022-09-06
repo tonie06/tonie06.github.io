@@ -5,11 +5,11 @@ body, html {
     text-align: center;
 }
 .parallax1 {
-    background-image: url(/assets/Tonie.gif);
+    background-image: url(/assets/sdown.gif);
     min-height: 100%;
 }
 .parallax2 {
-    background-image: url(/assets/Skills.gif);
+    background-image: url(/assets/skills.gif);
     min-height: 50%;
 }
 .parallax3 {
