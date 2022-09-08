@@ -175,27 +175,27 @@ form {
 form h1 {
         color: #555;
         font-weight: 800;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
 }
 
 form input, form textarea {
         border: 0;
-        margin: 10px 0;
-        padding: 20px;
+        margin: 1px 0;
+        padding: 10px;
         outline: none;
         background-color: #f5f5f5;
-        font-size: 16px;
+        font-size: 10px;
 }
 
 form button {
-        padding: 15px;
+        padding: 10px;
         background: cyan;
         color: #fff;
-        font-size: 18px;
+        font-size: 13px;
         border: 0;
         outline: none;
         cursor: pointer;
-        width: 150px;
+        width: 100px;
         margin: 20px auto 0;
         border-radius: 30px;
 }
