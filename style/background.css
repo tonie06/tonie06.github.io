@@ -3,7 +3,7 @@ body, html {
     margin:0;
     line-height: 180%;
     text-align: center;
-    background-color: #484c4c;
+    background-color: #362121;
 }
 .parallax1 {
     background-image: url(/assets/space.jpg);
@@ -37,79 +37,30 @@ body, html {
 
 .head {
     position: absolute;
-    color: rgb(196, 171, 171);
+    color: white;
     font-size: 250%;
     top:50%;
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 10px;
-    animation: drop 2s infinite; 
+    animation: drop 5s infinite; 
 }
-
-.reveal{
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: 2s all ease;
-  }
-  .reveal.active{
-    transform: translateY(0);
-    opacity: 1;
-  }
-  .active.fade-bottom {
-    animation: fade-bottom 1s ease-in;
-  }
-  .active.fade-left {
-    animation: fade-left 1s ease-in;
-  }
-  .active.fade-right {
-    animation: fade-right 1s ease-in;
-  }
-
-  @keyframes fade-bottom {
-    0% {
-      transform: translateY(50px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  @keyframes fade-left {
-    0% {
-      transform: translateX(-100px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  @keyframes fade-right {
-    0% {
-      transform: translateX(100px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
 
 section {
     height: auto;
     padding: 50px 80px; 
-    background-color: #484c4c;
+    background-color: #362121;
+        color: #c2bcbc;
 }
 
 div {
- color: white;
+  text-align: center;
+        border-radius: 1%;
 }
 
 footer{
     width: 100%;
-    background-color: #323232;
+    background-color: #362121;
     color: #f2f2f2;
     height: 8vh;
     text-align: center;
@@ -127,8 +78,16 @@ footer{
 
         @keyframes drop {
           0%   {top: 150px;}
-          50%  {top: 140px;}
-          100% {top: 150px;}
+          10%  {top: 140px;}
+          20%  {top: 130px;}
+          30% {top: 120px;}
+          40% {top: 110px;}
+          50% {top: 100px;}     
+                60% {top: 110px;}
+                     70% {top: 120px;}
+                80% {top: 130px;}
+                90% {top: 140px;}
+                100% {top: 150px;}
           }
         
         #a { color: rgb(196, 171, 171);}
@@ -137,29 +96,12 @@ footer{
         a:hover { text-decoration: none; }
         a:active { text-decoration: none; }
 
-#glow {
-  color: #ffffff;
-  text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
-}
 
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 
-                 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000; 
-  }
-  to {
-    text-shadow: 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 
-                 0 0 60px #000000, 0 0 70px #000000, 0 0 80px #000000;
-  }
-}
 
 .containerf {
         height: auto;
-        display: flex;
-        align-items: center;
+        display: flex;        
+            align-items: center;
         justify-content: center;
 }
 
