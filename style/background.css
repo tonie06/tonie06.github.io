@@ -51,11 +51,11 @@ section {
     padding: 50px 80px; 
     background-color: #362121;
         color: #c2bcbc;
+        border-radius: 1%;
 }
 
 div {
   text-align: center;
-        border-radius: 1%;
 }
 
 footer{

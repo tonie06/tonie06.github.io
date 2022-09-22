@@ -17,6 +17,11 @@ nav {
     border-radius: 5px;
 }
 
+nav a:hover {
+        border-radius: 20px;
+        background-color: black;
+}
+
 nav a {
     font: 1.2em/1em sans-serif;
     display: inline-block;
@@ -28,3 +33,4 @@ nav a {
 #main {
     padding-top: 70px;
 }
+
