@@ -7,7 +7,7 @@ body, html {
 }
 .parallax1 {
     background-image: url(/assets/space.jpg);
-    min-height: 100%;
+    min-height: 70%;
 }
 .parallax2 {
     background-image: url(/assets/galaxy.jpg);
@@ -43,7 +43,7 @@ body, html {
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 10px;
-    animation: drop 5s infinite; 
+    animation: drop 10s infinite; 
 }
 
 section {
@@ -75,22 +75,21 @@ footer{
    
 }
 
-
-        @keyframes drop {
+@keyframes drop {
           0%   {top: 150px;}
           10%  {top: 140px;}
-          20%  {top: 130px;}
-          30% {top: 120px;}
-          40% {top: 110px;}
-          50% {top: 100px;}     
-                60% {top: 110px;}
-                     70% {top: 120px;}
-                80% {top: 130px;}
-                90% {top: 140px;}
-                100% {top: 150px;}
+          20%  {top: 150px;}
+          30%  {top: 140px;}
+          40%  {top: 150px;}
+          50%  {top: 140px;}     
+          60%  {top: 150px;}
+          70%  {top: 140px;}
+          80%  {top: 150px;}
+          90%  {top: 140px;}
+          100% {top: 150px;}
           }
         
-        #a { color: rgb(196, 171, 171);}
+        #a { color: rgb(255, 255, 255);}
         a:link { text-decoration: none; }
         a:visited { text-decoration: none; }
         a:hover { text-decoration: none; }
