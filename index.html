@@ -1,148 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-        <link rel="stylesheet" href="master.css">
-        <script src="script/type.js"></script>
-        <script src="script/blank.js"></script>
-        <title>Tonie</title>
-        <meta property="og:title" content="Tonie the dumb programmer">
+        <link rel="icon" type="image/x-icon" href="">
+        <link rel="stylesheet" href="style/bg.css">
+        <link rel="stylesheet" href="style/text.css">
+        <link rel="stylesheet" href="style/nav.css">
+        <link rel="stylesheet" href="style/con.css">
+        <script src="scripts/typing.js"></script>
+        <script src="scripts/con.js"></script>
+        <script src="scripts/animateifv.js"></script>
+        <title>Tonie's Portfolio</title>
+        <meta property="og:title" content="Tonie">
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://toniedev.tk/">
-        <meta property="og:image"
-                content="https://cdn.discordapp.com/attachments/1005669836707348661/1008540616835211335/me.jpg">
-        <meta property="og:description"
-                content="Hi i am Tonie, i am a Front end Web Designer. I am 16 Years old High School Student in the Philippines">
+        <meta property="og:image" content="">
+        <meta property="og:description" content="">
         <meta property="og:locale" content="en_US">
+
 </head>
 
 <body>
-        <header>
-                <div class="wrapper">
-                        <nav>
-                                <a class="headt" href="#about">About Me</a>
-                                <a class="headt" href="#skills">Skills</a>
-                                <a class="headt" href="#contact">Contact</a>
-                                <a class="headt" href="#discover">Discover</a>
-                        </nav>
-                </div>
-        </header>
-        <div class="parallax1">
-                <div class="head">
-                        <p>Tonie's Portfolio</p>
-                        <p>I am a
-                                <a class="typewrite" id="a" data-period="2000"
-                                        data-type='[ "Web Designer", "Web Developer", "student"]'>
-                                        <span class="wrap"></span>
-                                </a>
-                        </p>
-                </div>
+        <nav class="p1nav">
+                <ul>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Discovery">Discovery</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                </ul>
+        </nav>
+        <div class="p1" id="About">
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+                <a style="font-size: 32px" class="typewrite" id="a" data-period="500" data-type='[ "Hello", "Kamusta", "Bonjour", "Marhaba", "Grüß Gott", "Namaskar", "Zdraveite", "Hafa adai", "Hola", "Ni hao", "hyvää päivää", "Namaste", "Konnichiwa", "Zdravstvuyte", "Sawasdee"]'>
+                        <span class="wrap"></span>
+                </a><br><br><br>
+                <p style="font-size: 16px; letter-spacing: 2px;">I am <span class="jump">Tonie</span> 16 Years old a Grade 8 High School Student<br> a Front End Website Designer with 2 Years of Experience!<br></p>
         </div>
-        <div id="about"></div>
-        <section>
-                <div>
-                        <h1>About Me</h1>
-                        <p>Hi i am Tonie<br> a Front End Web Designer/Developer<br>I am a Grade 8 High School
-                                Student<br>I am 16 Years old living in the Philippines</p>
-                </div>
-        </section>
-        <div class="parallax2">
-                <div class="head">
-                        <p>
-                                Skills
-                        </p>
-                </div>
+        <div class="p2" id="Discovery">
+        <br><br><br><br><br>
+                <h1>Discover More About Me!</h1><br>
+                <p>
+                        Socials<br><br><a href="https://www.facebook.com/profile.php?id=100088229109556" style="color: white; text-decoration: none;"  target="_blank"><img src="https://freesvg.org/img/1482589369.png" height="50" width="50" class="rotate"></a><br>
+                <a href="https://github.com/tonie06" style="color: white; text-decoration: none;"  target="_blank" ><img src="https://freesvg.org/img/github.png" height="50" width="50" class="rotate"></a></a><br>
+                       <br>
+                        Donate<br><br>
+               <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate Here', '#28e044', 'I3I8E7ZXU');kofiwidget2.draw();</script> <br>
+        </p> <br><p><span style="color: white;">Gcash: 09776380260</span></p>
         </div>
-        <div id="skills"></div>
-        <section>
-                <div>
-                        <div class="tooltip">
-                                <h1>My Skills</h1><span class="tooltiptext">
-                                        <p>Last Updated: 10/23/22</p>
-                                </span>
-                        </div>
-                        <p>
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAADYklEQVR4nO2YvU8TYRjAf1co1x7YNkFo/AAdlKhANQwGEgfj4uDgx+Kimx9xNYaYsGmMg/+ADkYGBwcHNhlcFElAJ/nSBAcjxIANWLFe0zbtOZzQoy28188r9f1Nd0+ft+/zfe8dSCQSiUQikUgkkv8RJVswqV06Z2A8AWOfEwZVkEUDbgzoI6+sQle2lkH6cR06D7BfgSfZwpwAAPurYExZuK5GuKn+ytzfucrN21c27rvuv6Xr3ph1SUf2f+QLwI7BhbKph11pAwUjIzAUrLf5yJkBE9oFwZKdTb8+ssnnHV0B5SCnAiKRSF1XQCAQkBVgRQbAaQOcplGk4Jk6i2ttshq25JDy9RMPjQLw7fwD9A/z2+p7Tx7mwMhQQXsIK8Ap5wEa1iY2ro2ccZ0HxY7SZoQVICKRgLk5cLkgFMr93TBgatp83Kz/PjUFaQOOHYWmJnv7FJpZu5Q0AxIJmJmBaNR0KB/hMPxeg2QyI0unIfrbXJtIlGJB6RRdAckkzMyCroPXa2YzG8OAhUXzusNyCu/uhukZ0P/A9DT09oorYXl5mXg8XpCNqqoSDAa31SmqApLJjANe79YOhMMQ08Hjgba2jNztht4e0JohFjOD4FQlFFUBs7Om85oGPT35nbdmv7Mzdz653dDTbbaBrsPcJzhxfOs9RZksloqdA7bKfq1RVAWIeliUfbA3Q6zU1AwQ9bAo+3ZnSDUo+imwXQ+Lsm9nhmRTkzOgqcl0oGUXNFgcdTeC37d177tc5hq7zlcS4fcA7V2getbkQT8VAco3Awr+HpDy9Re0aTlJ+QYqvof8IuSUIbWCDIDTBjiN8Bzw+uMXBodHWfoZ3ST/PnwXgMDI58pYZpNIXxhaj0BzcedtYQAGn42yFImK1JxDXwF9HLTWogIhbIGadt6KvgIL41x48Jyx2a+2l9XdDHg/v8jlRy94+PKNLf26C8A6dk+NJX8UrTX6DrZz7UyI06FDtvSFAWj3afxY00s2rNLEG1r41biHp7d24/f78Xg8ttYJW2DoYj/tPq1kAytFvKGFZbWLiK8X/95DBINB286DjXeBWCzG6uoqqVSqDOaWH1VVCQQCqKpqSz/7XUC+DOXRWaySLU6wkC3ICYCiKDeozyAs/PNNIpFIJBKJRCKRSPgLwCchedz2towAAAAASUVORK5CYII="
-                                        height="50" width="50"><br> Front End: 2 Years <br>
-                                <img src="assets/bootstrap.svg" height="25" width="25">
-                                <img src="assets/js.svg" height="25" width="25"> <img src="assets/css.svg" height="25"
-                                        width="25"> <img src="assets/jquery.svg" height="25" width="25"><br><br>
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAADyElEQVR4nO2aTUgUYRjHf5u6uUJShmiGX7uYQiSE4CdZWNAe8hLYKYKgyDysYIcOdegQZYcMBMlA6B7e9iIdPARJB0FwT2ukmbnd+jBwdNPs4I7Murvtzsf7zq47PxiYZeaded7//J/nfefdAQcHFTfwDIgAOwd0WwWGY31NYDgLApS1DauddmkEWAWqJicnaWlpSSZQzjM7O0tfXx/suvwkxAuwA7C0tCQ/MonU19eruy6AwnQnqoJoGh4oEgS4uhL87++DRkIKnH03alMocpjrDqi7LoBD9oWSHZgSYK47oFV0D/faBp6pUNr2nqkQ7rUNMyGYJmURTNaxTNLDvbbBytA4kYVFOrmF4m8GwPUXPF++s15XBoBnap6ZJxNUnfJSPdJPtLTYaB9MYWkKFP3eZOXeKyILi1T6atnqaNg75gl95f2NR2w+fgPAVlcjVY0+IguLLA+O4f6pWBlKxqR0gJFi+O3+BJHwp6RP9UdwBoDSplo2gT9HDlP9/A7E3OJ+8JrjYwNAcveZJVV/pBTBol8K4ekPFBQWsHPxjIxbZkxKBxjhxLNbbA+NEwl/4u/gGLUvBoge9eB6O8/21hanL58jeqwESEyXyic3+RO7jsyh2NIiuN/W3g8fwd/M7/AyAEevdLCu3vh9OGW6yMRSBwBES4upHumnbuYjin/X7ocfXqPr+iWUmrK98xR/M53cZruzIa7zVuS/HgdZWgRVoqXF4I/PdXX406L47a8HljvALLKn4nk/Fba0CIoYv/XGoBfHAakOGFE6F1+lHQeIuKiMWpAJmTgyrQBGX4tzBSEOyCWB0gqQS50xgqUOMJr7dorsjALpTtBTBHMxXbLWAbJWloUWQT01QXsfmSvLWecA2SvLQtcD7FxZzpScmQkW/VKYF7CybPu7wH4xrVpZzpSsmwnKXlk29fe4+qRFiORe26BAs7IMUPL5O0pNGTua0u2ZCiWsLP+P/X+PO98H2BdKdpDggDzCcQAkGQWmp6ftiEMaPT09cb/z3gGOAJr9CEAolP4VNFfR9C2S7Hg+fSz9NJkA7pgIq1kQoKgt4XN57TxABP3Ay97eXkZH9c0wA4EAwWAQ4C4wLiA2QHwRPA/Q1tamu6GmzXkL40lAtADdAO3t7bobatpcQKBTRQrQBFSVl5fj9Xp1N/b5fFRUVABUAo0Wx7aHSAEuwO6TdLmMPcDW1ta4a4lApACG819FRh0QKYDh/FeRUQdECWAq/1Vk1AFRApjOfxXRdUCUAKbzX0V0HbAqr+xaTTIdf96/DjvkO/8Ad95vwvarkZcAAAAASUVORK5CYII="
-                                        height="50" width="50"><br> Back End: 6 Months <br><img src="assets/js.svg"
-                                        height="25" width="25"> <img src="assets/nodejs.svg" height="25" width="25">
-                                <img src="assets/php.svg" height="25" width="25"> <img src="assets/py.svg" height="25"
-                                        width="25"><br><br>
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAFTElEQVRoge2ZX2wURRzHP7Nze9cu/QPXP1RaIMFQGtGYWKKIkT+iMfpmAmjEBx8MkRQSnoyElBygxleVQvCBJ4gQfNCAGEloKBiiSI3og1CjQf5Lr6WF9q7X3dnx4Wpt7/a6t9ejIaGfp2bm95v5fm+mO7+dhWmmebgRxRhkrdayqTf5NEqvApoRNAGPAGUjIQPADTSXgE5XinYzWnouJoQ72bknZWBbT2KuVLRood8C6gOmX0OLA1LSFquyrhWqoSADW2/eqwmFjA+At4FwoZOPMAzsl7Zqjc2piAdNDmygtXvgTRCfAdGguROi6UGITbtqrENB0vI2sEFrc3Y8sQd4J7C4AAjYd6va2vy5EHae8f7EbmhLmYkvgVcmpS5/jkvbWhubIxJ+gYZfwAatzSkWD/CqMhNfx7T2/f/yNTCybaZS/H+8qOKJT/yCJtxC27sH1mvEgeJpCo7Q4o2dtdbhnP25OrbevVsVSsmLQHUhE6suA/ukBMBcrZCNBZ9ZvdJWi3I9YkO5skIp+RFBxLvgXDCwOyTD7RL38v+7M7nXxJijMZcpzBUKc5kCM++RoyokdwAtXp2eKxDrSTQoV/+JzyGlh0H9LBk+JbFPSNx4fk9lUakJL1eEVijCz7kwQ/ulDEtpLIxFS69kdniugKvYhPAWr/sF9o8GTock1S5hMPhhrvsFqaMhUkdDDEbAXDqyMisVRrWnmbBy9EZga2ZH1uwxrQ0VT/wNNIwauiGwz0rsDol9VkJeR0wBSAg94WKuVJirHeT8cWauX6y25h8RQo1tzFoB1Zt8Zqx4+7RkaL+J86sBzn0SPjo5OL8YqN800e8u0t/yGObyUb31jT3JZuDc2JTsLaT0qrHrYi5X6UGS4FyQ2D8Y2KckP3X+UVTtSx5vxHxWEVqqeK+8jhKrj4+fHBwXY+C+4G8AlnjOUAqhpekJSrfYNC2eTzzVRzzVT3fqDo5Wnmm5kMJgVriC6nAl1ZGZVH6bHO0rudCXI0s0Z7ZkGxA05iPAkiXMs+qYZ9Wh0dy1B7k91Ms/qTv02wM5c2aXzKI2EiUarsAQYwsB37IHYJG/gfSbVCAEgkqzjEqzjIXl80i5w3Sn+uhOpX/JmshMaiIziRiTfHXQ2dq8DJR5tAUiYoRpKK2lobR2skNlUp7Z4FvMPeh4GfDewA8G9zIbvAzcnAIhhSGytWUb0HRNiZjCuJTZ4LUC56dASEFodJa2LAOuFO35DCYXu8W5FhMjY+UVmq0t6zFqRkvPqXjiKjB3osEqvhjCvSWwvy+gyBtbtL3kIOf6ltMAV2SV1elrICaE23o7cRCh3/cb0ajTRNY4RNY46TK7Q2KflgyfkZAcHyvCIJ9ShFcozJdzls1Eh7rG/d1bki4MhOag11XkpF5ocqETYJ+R2CfTv4+52sF8XiEs/9x1f73GgnsnALhcvopDC44BpFwhHv2w2rqelwGA1u7BvcC7hRgoOprdu2pnbPbqynkSy7CzDQh8V1l0ND3SUTtydec0EKus7AXh6XoqEYiNE136TlgL7aqxDgnYV3xZ+SE0bTtrrSMTxfgWc79XWy3AV0VTlT/fGDXWFr8gXwNHhFDSttYDx4siKz+OSdtaFxPC9y086PX6p9znJ5PQtBk11pZ8xEMBxcD224nXtdC7KfDKcQK6hRYtfns+k8AvNDtrrcNORDWh2QOkguZ7kEKzW4adpqDiYbIf+eKJesNlE0Kvx6d28uCq0BxQhmjzOmHzpSifWWNaG3ZPckn63kY0A4vQ1DPmM6uGa0LQpdHnBaJdVlmdxfjMOs00Dzv/Apo00HS/vId7AAAAAElFTkSuQmCC"
-                                        height="50" width="50"><br> Education: Grade 8 High School Camarin High School,
-                                Philippines<br>
-                        </p>
-                </div>
-        </section>
-        <div class="parallax3">
-                <div class="head">
-                        <p>
-                                Get in touch with me!
-                        </p>
-                </div>
-        </div>
-        <div id="contact"></div>
-        <section>
-                <div class="containerf">
+
+        <div class="p2" id="Contact">
+                <br><br>
+                <h1>Wanna ask a Question?</h1><br>
+                <p>Feel free to Fill out this Contact Form to proceed</p>
+                <div class="container">
                         <form action="https://submit-form.com/NXip49or">
-                                <input type="hidden" name="_redirect" value="https://toniedev.tk" />
-                                <h1>Contact Form</h1>
-                                <h1></h1>
-                                <p>Need to ask a Question? Contact me by using this form</p>
-                                <label for="Name">Full Name:</label><br>
-                                <input type="text" id="Name" name="Name" placeholder="Your Name" required>
-                                <label for="Email">Email</label><br>
-                                <input type="email" id="Email" name="Name" placeholder="Your Email" required>
-                                <label for="Subject">Subject</label><br>
-                                <input type="text" id="Subject" name="Name" placeholder="Subject of your Message"
-                                        required>
-                                <label for="Message">Message</label><br>
-                                <textarea id="Message" name="Name" rows="4" placeholder="Your Message"
-                                        required></textarea>
-
-                                <button type="submit">Send</button>
-                        </form>
-
-                </div>
-        </section>
-        <div class="parallax4">
-                <div class="head">
-                        <p>
-                                Discover More About Me!
-                        </p>
-                </div>
+                                  <input
+    type="hidden"
+    name="_redirect"
+    value="https://toniedev.tk/"/>
+	<div class="row input-container">
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<input name="Name" id="name" type="text" required/>
+					<label for="Name">Name</label> 
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input">
+					<input name="Email" id="Email" type="email" required />
+					<label for="Email">Email</label> 
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input" style="float:right;">
+					<input name="Subject" id="Subject" type="text" required />
+					<label for="Subject">Subject</label> 
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<textarea 
+name="Message" id="Message" minlength="10" required></textarea>
+					<label for="Message">Message</label>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<button class="btn-lrg submit-btn" type="submit">Send Message</button>
+			</div>
+	</div>
+</div>                                                   </form>
         </div>
-        <div id="discover"></div>
-        <section>
-                <div>
-                        <h1>My Socials</h1>
-                        <p>Find me all around the internet!</p>
-                        <p>
-                                
-                               <a href="https://github.com/tonie06"><img src="assets/git.svg" height="25"
-                                                width="25" alt="git"></a>
-                        <a
-                                        href="https://www.facebook.com/profile.php?id=100088229109556"><img
-                                                src="assets/facebook-svgrepo-com.svg" height="25" weight="25"></a></p>
-        </section>
-        <div class="parallax5">
-                <div class="head">
-                        <p>That's all! </p>
-                        <p>Thanks for </p>
-                        <p>Stopping by!</p>
-
-                        </p>
-                </div>
-        </div>
-        <footer>
-                © 2022 - All rights Reserved - Designed by Tonie
-        </footer>
 </body>
 
-</html
+</html>
+
+<!--                                 <a class="typewrite" id="a" data-period="2000" data type='[""]'><span class="wrap"></span></a>
+ --!>

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "fullpage.js": "^4.0.15",
     "jquery": "^3.6.1"
   }
 }

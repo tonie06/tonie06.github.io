@@ -1,22 +1,24 @@
-/* font-family: 'Concert One', cursive; For Texts
-font-family: 'Permanent Marker', cursive; for Titles*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Permanent+Marker&display=swap');
+/* font-family: 'Press Start 2P', cursive; */
 
 p {
-    font-family: 'Concert One', cursive;
+        font-family: 'Press Start 2P', cursive;
 }
 
 h1 {
-    font-family: 'Permanent Marker', cursive;
+        font-family: 'Press Start 2P', cursive;
+        color: black;
 }
 
-.headt {
-        font-family: 'Permanent Marker', cursive;
+nav ul li a{
+  font-family: 'Press Start 2P', cursive;
 }
 
-.highlight {
-  background-image: linear-gradient(to right, #F27121cc, #E94057cc, #8A2387cc);
-  border-radius: 6px;
-  padding: 3px 6px;
+nav ol li a{
+  font-family: 'Press Start 2P', cursive;
+}
+
+a {
+        font-family: 'Press Start 2P', cursive;
 }

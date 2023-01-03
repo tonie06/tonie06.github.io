@@ -1,0 +1,85 @@
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+body, html {
+  height: 110%;
+        text-align: center;
+}
+
+.p1nav {
+        background-color: black;
+}
+
+.p1 {
+        background: linear-gradient(-45deg, #000428, #084172);
+        margin: 0;
+        height: 100%;
+        color: white;
+        animation: gradient 1s ease infinite;
+}
+
+.p2 {
+        background: linear-gradient(-45deg, #243B55, #141E30);
+        margin: 0;
+        height: 100%;
+        color: white;
+        animation: gradient 1s ease infinite;
+}
+
+.p3 {
+        background: linear-gradient(-45deg, #2C3E50, #4CA1AF);
+        margin: 0;
+        height: 150%;
+        color: white;
+        animation: gradient 1s ease infinite;
+}
+
+.rotate {
+        animation: jump 3s linear infinite; 
+}
+/* add a hover state that triggers the animation */
+.rotate:hover {
+  animation: rotate-circle 5s linear infinite;
+}
+
+/* define the keyframes for the animation */
+@keyframes rotate-circle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* define the keyframes for the animation */
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.jump {
+        color: white;
+        transition: transform 0.1s;
+        display: inline-block;
+}
+
+.jump:hover {
+    transform: translateY(-0.10in);
+}
